@@ -1,16 +1,41 @@
-# flutter_instagram
+# 📱 Projeto Flutter - Simulação do Instagram
 
-A new Flutter project.
+Este projeto consiste no desenvolvimento de um aplicativo em Flutter que simula as principais funcionalidades do Instagram, com foco em conceitos fundamentais de desenvolvimento mobile.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+O aplicativo possui três telas principais:
 
-A few resources to get you started if this is your first Flutter project:
+- **Login**
+  - Entrada de email e senha
+  - Validação de formulário
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Cadastro**
+  - Criação de novo usuário
+  - Campos com validação
+  - Seleção de data de nascimento
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Feed**
+  - Lista de postagens (`ListView`)
+  - Curtidas em posts
+  - Comentários
+
+- **Perfil**
+  - Exibição de posts em formato de grade (`GridView`)
+
+## 🧠 Conceitos aplicados
+
+Durante o desenvolvimento foram utilizados os seguintes conceitos:
+
+- Widgets com e sem estado (`StatefulWidget` e `StatelessWidget`)
+- Formulários (`Form`, `TextFormField`, validação)
+- Gerenciamento de estado com `setState`
+- Listas (`ListView`)
+- Grids (`GridView`)
+- Navegação entre telas (`Navigator`)
+- Uso de assets (imagens locais)
+
+## 🛠️ Tecnologias
+
+- Flutter
+- Dart
